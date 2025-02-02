@@ -1,5 +1,5 @@
 {
-  "name": "expo-nextjs-storybook",
+  "name": "expo-nextjs",
   "private": true,
   "workspaces": [
     "apps/*",

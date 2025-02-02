@@ -9,7 +9,7 @@ const project = resolve(process.cwd(), 'tsconfig.json');
 
 /** @type {import('eslint').Linter.Config[]} */
 const config = tseslint.config(
-  { ignores: ['node_modules/**', '.turbo/**', 'coverage/**', '.storybook/**'] },
+  { ignores: ['node_modules/**', '.turbo/**', 'coverage/**'] },
   eslintConfigPrettier,
   ...turboConfig,
   {
