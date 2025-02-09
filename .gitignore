@@ -75,7 +75,7 @@ expo-env.d.ts
 
 .turbo
 build/**
-
+.cache
 
 .pnp.*
 .yarn/*

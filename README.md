@@ -1,1 +1,1 @@
-# Expo NextJS Turborepo
+# Expo NextJS
