@@ -17,6 +17,7 @@ const config: UserConfig = {
   extends: ['@commitlint/config-conventional', 'monorepo'],
   rules: {
     'scope-enum': [2, 'always', scopes],
+    'scope-empty': [0],
   },
 };
 
