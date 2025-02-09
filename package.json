@@ -5,7 +5,7 @@
     "build": "turbo run build",
     "clean": "git clean -xdf node_modules .turbo coverage junit.xml",
     "clean:workspaces": "turbo run clean",
-    "commit": "commit",
+    "cm": "git-cz",
     "dev": "turbo watch dev --continue",
     "dev:native": "turbo watch dev -F @/native...",
     "dev:web": "turbo watch dev -F @/web...",
@@ -27,13 +27,20 @@
     "**/*.{js,ts,tsx,cjs,mjs}": "pnpm lint:fix --no-warn-ignored --",
     "**/*.{js,ts,tsx,cjs,mjs,json}": "prettier --write"
   },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
   "prettier": "@/prettier-config",
   "devDependencies": {
     "@/prettier-config": "workspace:*",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "@commitlint/prompt-cli": "^19.7.1",
+    "@commitlint/prompt": "^19.7.1",
     "@types/lint-staged": "~13.3.0",
+    "commitizen": "^4.3.1",
+    "commitlint-config-monorepo": "^2.0.2",
     "husky": "catalog:",
     "lint-staged": "catalog:",
     "prettier": "catalog:",
