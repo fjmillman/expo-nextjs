@@ -2,7 +2,7 @@
   "name": "@/native",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "android": "expo run:android",
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules coverage",
