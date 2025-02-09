@@ -9,7 +9,7 @@
       "persistent": true,
       "interactive": true
     },
-    "test:ci": {
+    "test:coverage": {
       "outputs": ["coverage/**"]
     }
   }

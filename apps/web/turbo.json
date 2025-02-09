@@ -3,13 +3,12 @@
   "extends": ["//"],
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**", "next-env.d.ts"]
     },
     "dev": {
       "persistent": true
     },
-    "test:ci": {
+    "test:coverage": {
       "outputs": ["coverage/**"]
     }
   }

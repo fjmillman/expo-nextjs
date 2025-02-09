@@ -13,8 +13,9 @@
     "ios": "expo run:ios",
     "lint": "eslint",
     "test": "jest",
-    "test:ci": "pnpm test -- --coverage",
-    "test:watch": "pnpm test -- --watch",
+    "test:ci": "pnpm test --ci",
+    "test:coverage": "pnpm test --coverage",
+    "test:watch": "pnpm test --watch",
     "typecheck": "tsc --noEmit"
   },
   "prettier": "@/prettier-config",

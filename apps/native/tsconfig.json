@@ -10,14 +10,6 @@
     "checkJs": false,
     "moduleSuffixes": [".ios", ".android", ".native", ""]
   },
-  "include": [
-    "src",
-    "*.ts",
-    "*.js",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts",
-    "nativewind-env.d.ts",
-    "index.ts"
-  ],
+  "include": ["src", "*.ts", "*.js", ".expo/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

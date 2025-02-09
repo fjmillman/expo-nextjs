@@ -2,7 +2,7 @@
   "$schema": "https://turbo.build/schema.json",
   "extends": ["//"],
   "tasks": {
-    "test:ci": {
+    "test:coverage": {
       "outputs": ["coverage/**"]
     }
   }

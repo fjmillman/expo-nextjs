@@ -5,6 +5,7 @@ const config = {
   preset: 'jest-expo',
   testMatch: ['**/?(*.)+(spec|test).ts?(x)'],
   collectCoverageFrom: [
+    '!**/*.stories.{ts,tsx,mdx}',
     'design-system/**/*.{ts,tsx}',
     'features/**/*.{ts,tsx}',
     'provider/**/*.{ts,tsx}',
