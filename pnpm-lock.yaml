@@ -70,9 +70,6 @@ importers:
       '@commitlint/prompt':
         specifier: ^19.7.1
         version: 19.7.1(@types/node@20.12.7)(typescript@5.7.3)
-      '@commitlint/prompt-cli':
-        specifier: ^19.7.1
-        version: 19.7.1(@types/node@20.12.7)(typescript@5.7.3)
       '@types/lint-staged':
         specifier: ~13.3.0
         version: 13.3.0
@@ -1295,11 +1292,6 @@ packages:
   '@commitlint/parse@19.5.0':
     resolution: {integrity: sha512-cZ/IxfAlfWYhAQV0TwcbdR1Oc0/r0Ik1GEessDJ3Lbuma/MRO8FRQX76eurcXtmhJC//rj52ZSZuXUg0oIX0Fw==}
     engines: {node: '>=v18'}
-
-  '@commitlint/prompt-cli@19.7.1':
-    resolution: {integrity: sha512-HP7uAIybHMEhKHz4i3Yqn0+mpu6LpexA8iY6iLmIkQI7ziRP50kBJptmsJZ00uVUdkWb+b9JF2J9Wa2WbiclGw==}
-    engines: {node: '>=v18'}
-    hasBin: true
 
   '@commitlint/prompt@19.7.1':
     resolution: {integrity: sha512-/A17LJzqmV2YUKkqZ8PPXjo8xpEMZvGrlBLbTvpt6Sgu1/H81IbBLagU4qS2O+65CZ7Y5mowoIlAbweqxB7kLA==}
@@ -7982,15 +7974,6 @@ snapshots:
       '@commitlint/types': 19.5.0
       conventional-changelog-angular: 7.0.0
       conventional-commits-parser: 5.0.0
-
-  '@commitlint/prompt-cli@19.7.1(@types/node@20.12.7)(typescript@5.7.3)':
-    dependencies:
-      '@commitlint/prompt': 19.7.1(@types/node@20.12.7)(typescript@5.7.3)
-      inquirer: 9.3.7
-      tinyexec: 0.3.2
-    transitivePeerDependencies:
-      - '@types/node'
-      - typescript
 
   '@commitlint/prompt@19.7.1(@types/node@20.12.7)(typescript@5.7.3)':
     dependencies:
